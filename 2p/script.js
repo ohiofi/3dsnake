@@ -21,9 +21,9 @@ let winnerBgColor = "blue";
 let winnerText = "BLUE WINS";
 
 function preload() {
-  myFont = loadFont(
-    "https://cdn.glitch.com/a505537e-e31c-44b7-a7d0-3f1df6037202%2FPressStart2P.ttf?v=1582643146331"
-  );
+    myFont = loadFont(
+        "./PressStart2P.ttf"
+      );
 }
 
 function setup() {
